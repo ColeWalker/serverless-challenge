@@ -39,7 +39,7 @@ custom:
 
 functions:
   savebooks:
-    handler: handler.savebooks
+    handler: lambda.savebooks
 
 # you can add CloudFormation resource templates here
 resources:
