@@ -23,7 +23,7 @@ This project assumes that you have the AWS CLI installed on your system which is
 # Usage
 
 1. Run `npm install` in the directory to install dependencies
-2. Run `serverless deploy` to create cloud components and immediately invoke lambda
+2. Run `npm start` to create cloud components and immediately invoke lambda
 
 # Style Guide
 

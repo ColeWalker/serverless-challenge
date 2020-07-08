@@ -4,8 +4,7 @@
   "description": "coding challenge for voicefoundry using serverless framework",
   "main": "handler.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "hook:before:offline:start": "echo deploy completed"
+    "start": "serverless deploy"
   },
   "keywords": [
     "voicefoundry",
