@@ -1,10 +1,6 @@
 'use strict'
 
-// const uuid = require(uuid)
 const aws = require('aws-sdk')
-// const fs = require('fs')
-// const table = "helloTable"
-// const path = require('path')
 const dynamoDB = new aws.DynamoDB.DocumentClient({
   region: process.env.AWS_REGION
 })
