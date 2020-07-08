@@ -1,7 +1,7 @@
 const aws = require('aws-sdk')
 const lambda = new aws.Lambda({ region: 'us-east-1' })
 
-class OnDeployHook {
+class InvokeOnDeploy {
   constructor(serverless, options) {
     this.hooks = {
       // this is where we declare the hook we want our code to run
@@ -20,4 +20,4 @@ async function invokeLambdaOnDeploy(serverless) {
   console.log(res)
 }
 
-module.exports = OnDeployHook
+module.exports = InvokeOnDeploy
