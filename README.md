@@ -20,5 +20,6 @@ Then, complete the following:
 | Dependency         | Use                                                                     |
 | ------------------ | ----------------------------------------------------------------------- |
 | serverless-s3-sync | Automatically upload files in the "data" local folder to the S3 bucket. |
+| aws-sdk            | Allows interaction with Amazon Web Services                             |
 
 ### serverless-s3-sync
