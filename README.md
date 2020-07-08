@@ -25,6 +25,10 @@ This project assumes that you have the AWS CLI installed on your system which is
 1. Run `npm install` in the directory to install dependencies
 2. Run `npm start` to create cloud components and immediately invoke lambda
 
+# What it does
+
+The data folder stores a JSON document representing all of the book reviews on my Goodreads account. Serverless first uploads this file to an S3 bucket using the serverless-s3-sync plugin at the same time as it establishes the DynamoDB table and lambda function. The lambda function parses only certain information about the reviewed books. Then, it formats those books into batches to be sent to DynamoDB. DynamoDB only allows batch writes of up to 25 items, so each batch consists of 25 or less items. Then, the data is saved to the DynamoDB table established by Serverless, and a response is returned stating that everything went well.
+
 # Style Guide
 
 If you'd like to modify or add code, you can use the Prettier VSCode extension to keep your additions automatically formatted with the rules in place.
