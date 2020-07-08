@@ -5,38 +5,57 @@ const dynamoDB = new aws.DynamoDB.DocumentClient({
   region: process.env.AWS_REGION
 })
 const s3 = new aws.S3()
+const table = process.env.TABLE_NAME
+const bucket = process.env.BUCKET_NAME
 
-// Gets review data stored in S3, and grabs only the books I've reviewed
+// getBooks takes review data which has been stored in S3 and grabs some of the data from books I've reviewed
 const getBooks = async () => {
   const params = {
-    Bucket: 'voice-foundry-bucket',
-    Key: 'books.json'
+    Bucket: bucket,
+    Key: 'reviews.json'
   }
-  const reviewsRes = await s3.getObject(params).promise()
-  const reviews = JSON.parse(reviewsRes.Body.toString())
 
-  return reviews.reviews.map((el) => {
-    return el.book
+  const reviewsRes = await s3.getObject(params).promise()
+  const reviews = JSON.parse(reviewsRes.Body.toString()).reviews
+
+  return reviews.map((el) => {
+    return {
+      id: el.book.id,
+      title: el.book.title,
+      description: el.book.description,
+      averageRating: el.book.average_rating,
+      published: el.book.published,
+      publisher: el.book.publisher,
+      numPages: el.book.num_pages,
+      isbn: el.book.isbn,
+      isbn13: el.book.isbn13,
+      link: el.book.link,
+      imageURL: el.book.image_url
+    }
   })
 }
 
+// getBatches takes array of raw data to be sent to DynamoDB and returns matrix of putRequests
 const getBatches = (arr) => {
   let chunked = []
+  // chunks array into sets of 25 (DynamoDB batchWrite write limit)
   if (arr.length > 25) {
-    for (i = 0, j = arr.length; i < j; i += 25) {
+    for (let i = 0; i < arr.length; i += 25) {
       chunked.push(arr.slice(i, i + 25))
     }
   } else {
+    //expects array of chunk arrays
     chunked = [[...arr]]
   }
 
   const batches = chunked.map((chunk) => {
     return chunk.map(formatBookPutRequest)
-  }, [])
+  })
 
   return batches
 }
 
+// formatBookPutRequest takes book object and wraps it in a PutRequest
 const formatBookPutRequest = (book) => {
   return {
     PutRequest: {
@@ -47,11 +66,12 @@ const formatBookPutRequest = (book) => {
   }
 }
 
+// writeBookBatches saves batches into database
 const writeBookBatches = async (batches) => {
   const promises = batches.map((batch) => {
     const params = {
       RequestItems: {
-        books: [...batch]
+        [table]: [...batch]
       }
     }
     return dynamoDB.batchWrite(params).promise()
@@ -77,20 +97,11 @@ module.exports.savebooks = async (event) => {
         2
       )
     }
-    throw new Error(err)
   }
 
   return {
     statusCode: 200,
-    body: JSON.stringify(
-      {
-        ...batches
-      },
-      null,
-      2
-    )
+    body:
+      'Lambda Successful, DynamoDB table has been populated with books content.'
   }
-
-  // Use this code if you don't use the http event with the LAMBDA-PROXY integration
-  // return { message: 'Go Serverless v1.0! Your function executed successfully!', event };
 }
