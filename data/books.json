@@ -1,0 +1,1518 @@
+
+
+{
+   "reviews": [
+          {
+             "id": "3373998955",
+             "book": {
+                "id": 32681092,
+                "isbn": {
+                   "@nil": "true"
+                },
+                "isbn13": {
+                   "@nil": "true"
+                },
+                "text_reviews_count": 15,
+                "uri": "kca://book/amzn1.gr.book.v1.j0eir1_XTt6Pn1Sfd18mUQ",
+                "title": "Writing An Interpreter In Go",
+                "title_without_series": "Writing An Interpreter In Go",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480949814l/32681092._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1480949814l/32681092._SX50_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/32681092-writing-an-interpreter-in-go",
+                "num_pages": "200",
+                "format": "ebook",
+                "edition_information": [],
+                "publisher": [],
+                "publication_day": "23",
+                "publication_year": "2016",
+                "publication_month": "11",
+                "average_rating": "4.55",
+                "ratings_count": "87",
+                "description": "In this book we will create a programming language together.<br /><br />We'll start with 0 lines of code and end up with a fully working interpreter for the Monkey programming language. Monkey has been specifically designed for this book: it's a language that looks a lot like C, has first class functions, closures, strings, hashes and arrays and its only implementation is the one we build in the book.<br /><br />In contrast to text books on interpreters &amp; compilers, the focus of this book is working code. Code is not just found in the appendix -- no, nearly every page contains a snippet! And not only that, but also tests. The code presented in the book is fully tested and the test suite is included.<br /><br />For more information, check out: <a target=\"_blank\" rel=\"noopener nofollow\" href=\"http://interpreterbook.com/\">http://interpreterbook.com/<\/a>",
+                "authors": {
+                   "author": {
+                      "id": "15988392",
+                      "name": "Thorsten Ball",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1477023888p5/15988392.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1477023888p2/15988392.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/15988392.Thorsten_Ball",
+                      "average_rating": "4.61",
+                      "ratings_count": "109",
+                      "text_reviews_count": "20"
+                   }
+                },
+                "published": "2016",
+                "work": {
+                   "id": "53255286",
+                   "uri": "kca://work/amzn1.gr.work.v1.FNOwR59Ovi_VQmIxhzfSfw"
+                }
+             },
+             "rating": "5",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Thu Jun 04 07:08:49 -0700 2020",
+             "read_at": "Mon Jul 06 06:58:10 -0700 2020",
+             "date_added": "Thu Jun 04 07:08:49 -0700 2020",
+             "date_updated": "Mon Jul 06 06:58:10 -0700 2020",
+             "read_count": "1",
+             "body": "This book is a fantastic look at how interpreters are written. It demystifies the entire process, providing a high level overview of each section, code, and tests. I went into this book knowing nothing about Golang, and I came out feeling confident that I could build a programming language if I wanted to.",
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3373998955",
+             "link": "https://www.goodreads.com/review/show/3373998955",
+             "owned": "0"
+          },
+          {
+             "id": "3352651285",
+             "book": {
+                "id": 30841984,
+                "isbn": "0316362476",
+                "isbn13": "9780316362474",
+                "text_reviews_count": 2955,
+                "uri": "kca://book/amzn1.gr.book.v1.qjNM_y039VamS7ufKpdPpA",
+                "title": "Kings of the Wyld (The Band, #1)",
+                "title_without_series": "Kings of the Wyld",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477027207l/30841984._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1477027207l/30841984._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/30841984-kings-of-the-wyld",
+                "num_pages": "502",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "Orbit",
+                "publication_day": "21",
+                "publication_year": "2017",
+                "publication_month": "2",
+                "average_rating": "4.32",
+                "ratings_count": "22535",
+                "description": "Clay Cooper and his band were once the best of the best -- the meanest, dirtiest, most feared crew of mercenaries this side of the Heartwyld. <br /><br />Their glory days long past, the mercs have grown apart and grown old, fat, drunk - or a combination of the three. Then an ex-bandmate turns up at Clay's door with a plea for help. His daughter Rose is trapped in a city besieged by an enemy one hundred thousand strong and hungry for blood. Rescuing Rose is the kind of mission that only the very brave or the very stupid would sign up for.<br /><br />It's time to get the band back together for one last tour across the Wyld.",
+                "authors": {
+                   "author": {
+                      "id": "15388346",
+                      "name": "Nicholas Eames",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1468878466p5/15388346.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1468878466p2/15388346.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/15388346.Nicholas_Eames",
+                      "average_rating": "4.30",
+                      "ratings_count": "31581",
+                      "text_reviews_count": "5037"
+                   }
+                },
+                "published": "2017",
+                "work": {
+                   "id": "51246585",
+                   "uri": "kca://work/amzn1.gr.work.v1.HIjgXIUuFYPR2KUUf7DHcw"
+                }
+             },
+             "rating": "3",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Sat May 23 14:20:51 -0700 2020",
+             "read_at": "Sat May 23 14:21:46 -0700 2020",
+             "date_added": "Sat May 23 14:20:51 -0700 2020",
+             "date_updated": "Sat May 23 14:21:46 -0700 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3352651285",
+             "link": "https://www.goodreads.com/review/show/3352651285",
+             "owned": "0"
+          },
+          {
+             "id": "3349774442",
+             "book": {
+                "id": 601238,
+                "isbn": "0552124753",
+                "isbn13": "9780552124751",
+                "text_reviews_count": 1734,
+                "uri": "kca://book/amzn1.gr.book.v1.wmsCLioD30HgoIyE6Yzy2g",
+                "title": "The Colour of Magic (Discworld, #1)",
+                "title_without_series": "The Colour of Magic",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365691644l/601238._SY160_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1365691644l/601238._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/601238.The_Colour_of_Magic",
+                "num_pages": "285",
+                "format": "Mass Market Paperback",
+                "edition_information": [],
+                "publisher": "Corgi",
+                "publication_day": "18",
+                "publication_year": "1985",
+                "publication_month": "1",
+                "average_rating": "3.99",
+                "ratings_count": "306183",
+                "description": "<i>Alternate Cover Edition can be found <a href=\"https://www.goodreads.com/book/show/27254094-the-colour-of-magic\" rel=\"nofollow\">here<\/a>. <\/i><br /><br />On a world supported on the back of a giant turtle (sex unknown), a gleeful, explosive, wickedly eccentric expedition sets out. There's an avaricious but inept wizard, a naive tourist whose luggage moves on hundreds of dear little legs, dragons who only exist if you believe in them, and of course THE EDGE on the planet...",
+                "authors": {
+                   "author": {
+                      "id": "1654",
+                      "name": "Terry Pratchett",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1235562205p5/1654.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1235562205p2/1654.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/1654.Terry_Pratchett",
+                      "average_rating": "4.16",
+                      "ratings_count": "4165389",
+                      "text_reviews_count": "148340"
+                   }
+                },
+                "published": "1985",
+                "work": {
+                   "id": "194190",
+                   "uri": "kca://work/amzn1.gr.work.v1.WXE3cJqvT0knlf1Vm3kJvQ"
+                }
+             },
+             "rating": "3",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Sun May 24 06:57:27 -0700 2020",
+             "read_at": "Tue Jun 02 17:51:09 -0700 2020",
+             "date_added": "Thu May 21 20:28:03 -0700 2020",
+             "date_updated": "Tue Jun 02 17:51:15 -0700 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3349774442",
+             "link": "https://www.goodreads.com/review/show/3349774442",
+             "owned": "0"
+          },
+          {
+             "id": "3349774201",
+             "book": {
+                "id": 14497,
+                "isbn": "0060557818",
+                "isbn13": "9780060557812",
+                "text_reviews_count": 15675,
+                "uri": "kca://book/amzn1.gr.book.v1.c51MT6mpyRpeHepu6Yx7Sg",
+                "title": "Neverwhere (London Below, #1)",
+                "title_without_series": "Neverwhere",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348747943l/14497._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1348747943l/14497._SX50_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/14497.Neverwhere",
+                "num_pages": "370",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "William Morrow Paperbacks",
+                "publication_day": "2",
+                "publication_year": "2003",
+                "publication_month": "9",
+                "average_rating": "4.17",
+                "ratings_count": "416374",
+                "description": "Under the streets of London there's a place most people could never even dream of. A city of monsters and saints, murderers and angels, knights in armour and pale girls in black velvet. This is the city of the people who have fallen between the cracks.<br /><br />Richard Mayhew, a young businessman, is going to find out more than enough about this other London. A single act of kindness catapults him out of his workday existence and into a world that is at once eerily familiar and utterly bizarre. And a strange destiny awaits him down here, beneath his native city: Neverwhere.",
+                "authors": {
+                   "author": {
+                      "id": "1221698",
+                      "name": "Neil Gaiman",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1234150163p5/1221698.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1234150163p2/1221698.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/1221698.Neil_Gaiman",
+                      "average_rating": "4.13",
+                      "ratings_count": "5930413",
+                      "text_reviews_count": "357207"
+                   }
+                },
+                "published": "2003",
+                "work": {
+                   "id": "16534",
+                   "uri": "kca://work/amzn1.gr.work.v1.BDISHjs24Q5pevic84Muyw"
+                }
+             },
+             "rating": "5",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Sat May 23 00:00:00 -0700 2020",
+             "read_at": "Sat May 23 14:24:16 -0700 2020",
+             "date_added": "Thu May 21 20:27:52 -0700 2020",
+             "date_updated": "Sat May 23 14:24:16 -0700 2020",
+             "read_count": "1",
+             "body": "This book was awesome, totally gripped me, and kept me wanting to read in a way that I haven't felt for a while.",
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3349774201",
+             "link": "https://www.goodreads.com/review/show/3349774201",
+             "owned": "0"
+          },
+          {
+             "id": "3247883139",
+             "book": {
+                "id": 34189556,
+                "isbn": "1250130921",
+                "isbn13": "9781250130921",
+                "text_reviews_count": 16837,
+                "uri": "kca://book/amzn1.gr.book.v1.OeuyeMll3dJvZSnW7Fpz1g",
+                "title": "The Wife Between Us",
+                "title_without_series": "The Wife Between Us",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496862122l/34189556._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1496862122l/34189556._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/34189556-the-wife-between-us",
+                "num_pages": "352",
+                "format": "Hardcover",
+                "edition_information": [],
+                "publisher": "St. Martin's Press",
+                "publication_day": "9",
+                "publication_year": "2018",
+                "publication_month": "1",
+                "average_rating": "3.84",
+                "ratings_count": "205429",
+                "description": "When you read this book, you will make many assumptions.<br />You will assume you are reading about a jealous ex-wife.<br />You will assume she is obsessed with her replacement – a beautiful, younger woman who is about to marry the man they both love. <br />You will assume you know the anatomy of this tangled love triangle.<br />Assume nothing. <br /><br />Twisted and deliciously chilling, Greer Hendricks and Sarah Pekkanen's <i>The Wife Between Us<\/i> exposes the secret complexities of an enviable marriage - and the dangerous truths we ignore in the name of love.<br /><br /><b>Read between the lies. <\/b>",
+                "authors": {
+                   "author": {
+                      "id": "16935182",
+                      "name": "Greer Hendricks",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1514922399p5/16935182.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1514922399p2/16935182.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/16935182.Greer_Hendricks",
+                      "average_rating": "3.82",
+                      "ratings_count": "329609",
+                      "text_reviews_count": "37787"
+                   }
+                },
+                "published": "2018",
+                "work": {
+                   "id": "55227731",
+                   "uri": "kca://work/amzn1.gr.work.v1.sV-DvlUlre2o7ZKXUKu44A"
+                }
+             },
+             "rating": "5",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Thu Apr 23 10:33:05 -0700 2020",
+             "read_at": "Sat May 23 14:21:50 -0700 2020",
+             "date_added": "Thu Mar 26 10:38:57 -0700 2020",
+             "date_updated": "Sat May 23 14:21:50 -0700 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3247883139",
+             "link": "https://www.goodreads.com/review/show/3247883139",
+             "owned": "0"
+          },
+          {
+             "id": "3234496290",
+             "book": {
+                "id": 39977753,
+                "isbn": {
+                   "@nil": "true"
+                },
+                "isbn13": "9780990859659",
+                "text_reviews_count": 110,
+                "uri": "kca://book/amzn1.gr.book.v1.rRSTgEhEqjBlmgIN0KXJrg",
+                "title": "Son of a Liche (The Dark Profit Saga, #2)",
+                "title_without_series": "Son of a Liche",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526778117l/39977753._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1526778117l/39977753._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/39977753-son-of-a-liche",
+                "num_pages": "618",
+                "format": "ebook",
+                "edition_information": [],
+                "publisher": "J. Zachary Pike",
+                "publication_day": "22",
+                "publication_year": "2018",
+                "publication_month": "5",
+                "average_rating": "4.49",
+                "ratings_count": "1519",
+                "description": "A doubly disgraced Dwarven hero. A band of accident-prone adventurers. Giving redemption a second shot may have been a grave mistake…<br /><br />Still bruised and heartbroken from their last calamitous quest, Gorm Ingerson and his band of washed-up heroes try to make amends for the Orcs they accidentally betrayed. But justice is put on hold when an old foe marches to the city gates. Gorm is horrified to discover a liche pitching the frightened city-dwellers on the merits of the undead lifestyle… at the head of a corpse army.<br /><br />To save the city from high-pressure sales tactics and an inevitable siege, the Dwarf warrior and his misfit band hatch a harebrained scheme that lands them at the top of the king’s kill list. With death and dark magic on his heels, Gorm must craft his own pitch to round up the troops and put the undead snake-oil salesman and his army of pushers permanently out of business.",
+                "authors": {
+                   "author": {
+                      "id": "4459639",
+                      "name": "J. Zachary Pike",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1411299541p5/4459639.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1411299541p2/4459639.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/4459639.J_Zachary_Pike",
+                      "average_rating": "4.35",
+                      "ratings_count": "5284",
+                      "text_reviews_count": "712"
+                   }
+                },
+                "published": "2018",
+                "work": {
+                   "id": "54144079",
+                   "uri": "kca://work/amzn1.gr.work.v1.tzw5bXn--J8pMEk82oi66A"
+                }
+             },
+             "rating": "3",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Sat Mar 21 00:00:00 -0700 2020",
+             "read_at": "Sat May 23 14:22:13 -0700 2020",
+             "date_added": "Tue Mar 17 06:40:54 -0700 2020",
+             "date_updated": "Sat May 23 14:22:13 -0700 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3234496290",
+             "link": "https://www.goodreads.com/review/show/3234496290",
+             "owned": "0"
+          },
+          {
+             "id": "3205168192",
+             "book": {
+                "id": 22889767,
+                "isbn": "0385348614",
+                "isbn13": "9780385348614",
+                "text_reviews_count": 2845,
+                "uri": "kca://book/amzn1.gr.book.v1.AAFVwefoeFcl4sdFhhjUKg",
+                "title": "Better Than Before: Mastering the Habits of Our Everyday Lives",
+                "title_without_series": "Better Than Before: Mastering the Habits of Our Everyday Lives",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415588203l/22889767._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1415588203l/22889767._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/22889767-better-than-before",
+                "num_pages": "298",
+                "format": "Hardcover",
+                "edition_information": [],
+                "publisher": "Crown",
+                "publication_day": "17",
+                "publication_year": "2015",
+                "publication_month": "3",
+                "average_rating": "3.84",
+                "ratings_count": "31865",
+                "description": "<b><i>New York Times<\/i> Bestseller<\/b><br /><b><i>Washington Post<\/i> Bestseller<\/b><br /><b> <\/b><br /><b>The author of the blockbuster <i>New York Times<\/i> bestsellers, <i>The Happiness Project<\/i> and <i>Happier at Home,<\/i> tackles the critical question: How do we change? <\/b><br />  <br /> Gretchen Rubin's answer: through <i>habits<\/i>. Habits are the invisible architecture of everyday life. It takes work to make a habit, but once that habit is set, we can harness the energy of habits to build happier, stronger, more productive lives.<br />  <br /> So if habits are a key to change, then what we really need to know is: <i>How do we change our habits<\/i>?<br />  <br /><i>Better than Before<\/i> answers that question. It presents a practical, concrete framework to allow readers to understand their habits—and to change them for good. Infused with Rubin’s compelling voice, rigorous research, and easy humor, and packed with vivid stories of lives transformed, <i>Better than Before<\/i> explains the (sometimes counter-intuitive) core principles of habit formation. <br />  <br /> Along the way, Rubin uses herself as guinea pig, tests her theories on family and friends, and answers readers’ most pressing questions—oddly, questions that other writers and researchers tend to ignore: <br /><br />• Why do I find it tough to create a habit for something I <i>love<\/i> to do? <br />• Sometimes I can change a habit overnight, and sometimes I can’t change a habit, no matter how hard I try. Why? <br />• How quickly can I change a habit? <br />• What can I do to make sure I stick to a new habit? <br />• How can I help someone else change a habit? <br />• Why can I keep habits that benefit others, but can’t make habits that are just for me? <br /><br /> Whether readers want to get more sleep, stop checking their devices, maintain a healthy weight, or finish an important project, habits make change possible. Reading just a few chapters of <i>Better Than Before<\/i> will make readers eager to start work on their own habits—even before they’ve finished the book.",
+                "authors": {
+                   "author": {
+                      "id": "21246",
+                      "name": "Gretchen Rubin",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1581703839p5/21246.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1581703839p2/21246.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/21246.Gretchen_Rubin",
+                      "average_rating": "3.66",
+                      "ratings_count": "212914",
+                      "text_reviews_count": "21521"
+                   }
+                },
+                "published": "2015",
+                "work": {
+                   "id": "40771666",
+                   "uri": "kca://work/amzn1.gr.work.v1.z06CZ3Cw2HOUavuNCz3atg"
+                }
+             },
+             "rating": "3",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Mon Mar 02 00:00:00 -0800 2020",
+             "read_at": "Sat Mar 14 05:01:30 -0700 2020",
+             "date_added": "Mon Feb 24 13:29:39 -0800 2020",
+             "date_updated": "Sat Mar 14 05:01:30 -0700 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3205168192",
+             "link": "https://www.goodreads.com/review/show/3205168192",
+             "owned": "0"
+          },
+          {
+             "id": "3180640235",
+             "book": {
+                "id": 25326486,
+                "isbn": {
+                   "@nil": "true"
+                },
+                "isbn13": {
+                   "@nil": "true"
+                },
+                "text_reviews_count": 357,
+                "uri": "kca://book/amzn1.gr.book.v1.ajzEJWnh7BECv46AqgFoOQ",
+                "title": "Orconomics (The Dark Profit Saga, #1)",
+                "title_without_series": "Orconomics",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428577850l/25326486._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1428577850l/25326486._SX50_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/25326486-orconomics",
+                "num_pages": "340",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "Gnomish Press LLC",
+                "publication_day": "22",
+                "publication_year": "2014",
+                "publication_month": "11",
+                "average_rating": "4.34",
+                "ratings_count": "3319",
+                "description": "Brimming with swords, sorcery, and wit, Orconomics: A Satire introduces Arth, a world much like our own but with more magic and fewer vowels. For the licensed wizards and warriors of Arth, slaying and looting the forces of evil is just a job. The Heroes' Guild has turned adventuring into a career, selling the rights to monsters’ hoards of treasure as investment opportunities. Corporations spend immense sums sponsoring heroes to undertake quests, betting they’ll reap the profits in plunder funds when the loot is divvied up.<br /><br />Questing was all business for famous Dwarven berserker Gorm Ingerson, until a botched expedition wiped out his party, disgraced his name, and reduced him to a thieving vagabond. Twenty years later, a chance encounter sees Gorm forcibly recruited by a priest of a mad goddess to undertake a quest that has a reputation for getting heroes killed. But there’s more to Gorm’s new job than an insane prophecy; powerful corporations and governments have shown an unusual interest in the job. Gorm might be able to turn a bad deal into a golden opportunity and win back the fame and fortune he lost so long ago.<br /><br />Promising fun, fantasy, and financial calamity, Orconomics: A Satire is the first book in The Dark Profit Saga, an economically epic trilogy.",
+                "authors": {
+                   "author": {
+                      "id": "4459639",
+                      "name": "J. Zachary Pike",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1411299541p5/4459639.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1411299541p2/4459639.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/4459639.J_Zachary_Pike",
+                      "average_rating": "4.35",
+                      "ratings_count": "5284",
+                      "text_reviews_count": "712"
+                   }
+                },
+                "published": "2014",
+                "work": {
+                   "id": "42853433",
+                   "uri": "kca://work/amzn1.gr.work.v1.HMNW6ivqlgYRqkeQZxY9qg"
+                }
+             },
+             "rating": "4",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Mon Mar 02 00:00:00 -0800 2020",
+             "read_at": "Sat Mar 21 15:14:04 -0700 2020",
+             "date_added": "Fri Feb 07 14:38:07 -0800 2020",
+             "date_updated": "Sat Mar 21 15:14:04 -0700 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3180640235",
+             "link": "https://www.goodreads.com/review/show/3180640235",
+             "owned": "0"
+          },
+          {
+             "id": "3175410958",
+             "book": {
+                "id": 12067,
+                "isbn": {
+                   "@nil": "true"
+                },
+                "isbn13": {
+                   "@nil": "true"
+                },
+                "text_reviews_count": 19343,
+                "uri": "kca://book/amzn1.gr.book.v1.7RUNqxz5r2etxmmOQNCR6g",
+                "title": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+                "title_without_series": "Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392528568l/12067._SY160_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1392528568l/12067._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/12067.Good_Omens",
+                "num_pages": "491",
+                "format": "Mass Market Paperback",
+                "edition_information": [],
+                "publisher": "William Morrow",
+                "publication_day": "28",
+                "publication_year": "2006",
+                "publication_month": "11",
+                "average_rating": "4.25",
+                "ratings_count": "519604",
+                "description": "‘Armageddon only happens once, you know. They don’t let you go around again until you get it right.’<br /><br />People have been predicting the end of the world almost from its very beginning, so it’s only natural to be sceptical when a new date is set for Judgement Day. But what if, for once, the predictions are right, and the apocalypse really is due to arrive next Saturday, just after tea?<br /><br />You could spend the time left drowning your sorrows, giving away all your possessions in preparation for the rapture, or laughing it off as (hopefully) just another hoax. Or you could just try to do something about it.<br /><br />It’s a predicament that Aziraphale, a somewhat fussy angel, and Crowley, a fast-living demon now finds themselves in. They’ve been living amongst Earth’s mortals since The Beginning and, truth be told, have grown rather fond of the lifestyle and, in all honesty, are not actually looking forward to the coming Apocalypse.<br /><br />And then there’s the small matter that someone appears to have misplaced the Antichrist…",
+                "authors": {
+                   "author": {
+                      "id": "1654",
+                      "name": "Terry Pratchett",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1235562205p5/1654.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1235562205p2/1654.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/1654.Terry_Pratchett",
+                      "average_rating": "4.16",
+                      "ratings_count": "4165389",
+                      "text_reviews_count": "148340"
+                   }
+                },
+                "published": "2006",
+                "work": {
+                   "id": "4110990",
+                   "uri": "kca://work/amzn1.gr.work.v1.tqQYtFsBAMT4gl8zB5Lulw"
+                }
+             },
+             "rating": "4",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Sun Feb 09 00:00:00 -0800 2020",
+             "read_at": "Sat Feb 29 06:26:12 -0800 2020",
+             "date_added": "Tue Feb 04 03:37:31 -0800 2020",
+             "date_updated": "Sat Feb 29 06:26:12 -0800 2020",
+             "read_count": "1",
+             "body": "Very good book, but a long read. Same kind of humor as Hitchhiker's Guide to the Galaxy.",
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3175410958",
+             "link": "https://www.goodreads.com/review/show/3175410958",
+             "owned": "0"
+          },
+          {
+             "id": "3174178691",
+             "book": {
+                "id": 9418327,
+                "isbn": {
+                   "@nil": "true"
+                },
+                "isbn13": {
+                   "@nil": "true"
+                },
+                "text_reviews_count": 28618,
+                "uri": "kca://book/amzn1.gr.book.v1.xtYYWP2HonpKiDTapafogw",
+                "title": "Bossypants",
+                "title_without_series": "Bossypants",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481509554l/9418327._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1481509554l/9418327._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/9418327-bossypants",
+                "num_pages": "283",
+                "format": "Kindle Edition",
+                "edition_information": [],
+                "publisher": "Reagan Arthur Books",
+                "publication_day": "5",
+                "publication_year": "2011",
+                "publication_month": "4",
+                "average_rating": "3.95",
+                "ratings_count": "826183",
+                "description": "Before Liz Lemon, before \"Weekend Update,\" before \"Sarah Palin,\" Tina Fey was just a young girl with a dream: a recurring stress dream that she was being chased through a local airport by her middle-school gym teacher. She also had a dream that one day she would be a comedian on TV.<br /><br />She has seen both these dreams come true.<br /><br />At last, Tina Fey's story can be told. From her youthful days as a vicious nerd to her tour of duty on <i>Saturday Night Live<\/i>; from her passionately halfhearted pursuit of physical beauty to her life as a mother eating things off the floor; from her one-sided college romance to her nearly fatal honeymoon—from the beginning of this paragraph to this final sentence.<br /><br />Tina Fey reveals all, and proves what we've all suspected: you're no one until someone calls you bossy.",
+                "authors": {
+                   "author": {
+                      "id": "4385839",
+                      "name": "Tina Fey",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1286658273p5/4385839.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1286658273p2/4385839.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/4385839.Tina_Fey",
+                      "average_rating": "3.95",
+                      "ratings_count": "826324",
+                      "text_reviews_count": "38972"
+                   }
+                },
+                "published": "2011",
+                "work": {
+                   "id": "14302659",
+                   "uri": "kca://work/amzn1.gr.work.v1.Vg-EwSY0DnHTnTTaFiVwZA"
+                }
+             },
+             "rating": "5",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": [],
+             "read_at": [],
+             "date_added": "Mon Feb 03 08:41:05 -0800 2020",
+             "date_updated": "Mon Feb 03 08:41:06 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3174178691",
+             "link": "https://www.goodreads.com/review/show/3174178691",
+             "owned": "0"
+          },
+          {
+             "id": "3173894489",
+             "book": {
+                "id": 386162,
+                "isbn": {
+                   "@nil": "true"
+                },
+                "isbn13": {
+                   "@nil": "true"
+                },
+                "text_reviews_count": 5835,
+                "uri": "kca://book/amzn1.gr.book.v1.T3kHCY3uRqZNaTlMkxXbwQ",
+                "title": "The Hitchhiker's Guide to the Galaxy (Hitchhiker's Guide to the Galaxy, #1)",
+                "title_without_series": "The Hitchhiker's Guide to the Galaxy",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559986152l/386162._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1559986152l/386162._SX50_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/386162.The_Hitchhiker_s_Guide_to_the_Galaxy",
+                "num_pages": "193",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "Del Rey",
+                "publication_day": "23",
+                "publication_year": "2007",
+                "publication_month": "6",
+                "average_rating": "4.22",
+                "ratings_count": "1389528",
+                "description": "Seconds before the Earth is demolished to make way for a galactic freeway, Arthur Dent is plucked off the planet by his friend Ford Prefect, a researcher for the revised edition of <i>The Hitchhiker's Guide to the Galaxy<\/i> who, for the last fifteen years, has been posing as an out-of-work actor.<br /><br />Together this dynamic pair begin a journey through space aided by quotes from <i>The Hitchhiker's Guide<\/i> (\"A towel is about the most massively useful thing an interstellar hitchhiker can have\") and a galaxy-full of fellow travelers: Zaphod Beeblebrox—the two-headed, three-armed ex-hippie and totally out-to-lunch president of the galaxy; Trillian, Zaphod's girlfriend (formally Tricia McMillan), whom Arthur tried to pick up at a cocktail party once upon a time zone; Marvin, a paranoid, brilliant, and chronically depressed robot; Veet Voojagig, a former graduate student who is obsessed with the disappearance of all the ballpoint pens he bought over the years.",
+                "authors": {
+                   "author": {
+                      "id": "4",
+                      "name": "Douglas Adams",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1591374335p5/4.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1591374335p2/4.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/4.Douglas_Adams",
+                      "average_rating": "4.20",
+                      "ratings_count": "2682226",
+                      "text_reviews_count": "58864"
+                   }
+                },
+                "published": "2007",
+                "work": {
+                   "id": "3078186",
+                   "uri": "kca://work/amzn1.gr.work.v1.BdBZdKl21kQgC0CJzl4mKQ"
+                }
+             },
+             "rating": "4",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Wed Feb 05 05:22:06 -0800 2020",
+             "read_at": "Sun Feb 09 03:16:20 -0800 2020",
+             "date_added": "Mon Feb 03 04:36:30 -0800 2020",
+             "date_updated": "Sun Feb 09 03:16:20 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3173894489",
+             "link": "https://www.goodreads.com/review/show/3173894489",
+             "owned": "0"
+          },
+          {
+             "id": "3155752075",
+             "book": {
+                "id": 23420022,
+                "isbn": "1611174740",
+                "isbn13": "9781611174748",
+                "text_reviews_count": 1,
+                "uri": "kca://book/amzn1.gr.book.v1.nJQi1Yz4VWx5ZHogLAapgA",
+                "title": "Working on the Dock of the Bay: Labor and Enterprise in an Antebellum Southern Port",
+                "title_without_series": "Working on the Dock of the Bay: Labor and Enterprise in an Antebellum Southern Port",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433292855l/23420022._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1433292855l/23420022._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/23420022-working-on-the-dock-of-the-bay",
+                "num_pages": "304",
+                "format": "Hardcover",
+                "edition_information": [],
+                "publisher": "University of South Carolina Press",
+                "publication_day": "28",
+                "publication_year": "2015",
+                "publication_month": "4",
+                "average_rating": "4.00",
+                "ratings_count": "1",
+                "description": "Working on the Dock of the Bay explores the history of waterfront labor and laborers--black and white, enslaved and free, native and immigrant--in Charleston, South Carolina, between the American Revolution and Civil War. Michael D. Thompson explains how a predominantly enslaved workforce laid the groundwork for the creation of a robust and effectual association of dockworkers, most of whom were black, shortly after emancipation. In revealing these wharf laborers' experiences, Thompson's book contextualizes the struggles of contemporary southern working people.<br />Like their postbellum and present-day counterparts, stevedores and draymen laboring on the wharves and levees of antebellum cities--whether in Charleston or New Orleans, New York or Boston, or elsewhere in the Atlantic World--were indispensable to the flow of commodities into and out of these ports. Despite their large numbers and the key role that waterfront workers played in these cities' premechanized, labor-intensive commercial economies, too little is known about who these laborers were and the work they performed.<br />Though scholars have explored the history of dockworkers in ports throughout the world, they have given little attention to waterfront laborers and dock work in the pre-Civil War American South or in any slave society. Aiming to remedy that deficiency, Thompson examines the complicated dynamics of race, class, and labor relations through the street-level experiences and perspectives of workingmen and sometimes workingwomen. Using this workers'-eye view of crucial events and developments, Working on the Dock of the Bay relocates waterfront workers and their activities from the margins of the past to the center of a new narrative, reframing their role from observers to critical actors in nineteenth-century American history. Organized topically, this study is rooted in primary source evidence including census, tax, court, and death records; city directories and ordinances; state statutes; wills; account books; newspapers; diaries; letters; and medical journals.",
+                "authors": {
+                   "author": {
+                      "id": "6881635",
+                      "name": "Michael D. Thompson",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "true",
+                         "#text": "https://s.gr-assets.com/assets/nophoto/user/m_200x266-d279b33f8eec0f27b7272477f09806be.png"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "true",
+                         "#text": "https://s.gr-assets.com/assets/nophoto/user/m_50x66-82093808bca726cb3249a493fbd3bd0f.png"
+                      },
+                      "link": "https://www.goodreads.com/author/show/6881635.Michael_D_Thompson",
+                      "average_rating": "4.00",
+                      "ratings_count": "1",
+                      "text_reviews_count": "1"
+                   }
+                },
+                "published": "2015",
+                "work": {
+                   "id": "42978866",
+                   "uri": "kca://work/amzn1.gr.work.v1.I7IO10nwVZx8pfKnYBnCVA"
+                }
+             },
+             "rating": "4",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Wed Jan 22 15:54:59 -0800 2020",
+             "read_at": "Wed Feb 12 09:22:53 -0800 2020",
+             "date_added": "Wed Jan 22 15:54:59 -0800 2020",
+             "date_updated": "Wed Feb 12 09:22:53 -0800 2020",
+             "read_count": "1",
+             "body": "Dry, long-winded. Educational, but difficult to get through.",
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3155752075",
+             "link": "https://www.goodreads.com/review/show/3155752075",
+             "owned": "0"
+          },
+          {
+             "id": "3153449695",
+             "book": {
+                "id": 6043781,
+                "isbn": "031602919X",
+                "isbn13": "9780316029193",
+                "text_reviews_count": 2638,
+                "uri": "kca://book/amzn1.gr.book.v1.U-PVlJFDlso-1fef_A_T_Q",
+                "title": "Blood of Elves (The Witcher, #1)",
+                "title_without_series": "Blood of Elves",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589998653l/6043781._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1589998653l/6043781._SX50_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/6043781-blood-of-elves",
+                "num_pages": "420",
+                "format": "Mass Market Paperback",
+                "edition_information": [],
+                "publisher": "Hachette Book Group",
+                "publication_day": "1",
+                "publication_year": "2009",
+                "publication_month": "5",
+                "average_rating": "4.13",
+                "ratings_count": "92238",
+                "description": "<b>The <i>New York Times<\/i> bestselling series that inspired the international hit video game: <i>The Witcher.<\/i><\/b><br />For over a century, humans, dwarves, gnomes, and elves have lived together in relative peace. But times have changed, the uneasy peace is over, and now the races are fighting once again. The only good elf, it seems, is a dead elf.<br /><br />Geralt of Rivia, the cunning assassin known as The Witcher, has been waiting for the birth of a prophesied child. This child has the power to change the world - for good, or for evil.<br /><br />As the threat of war hangs over the land and the child is hunted for her extraordinary powers, it will become Geralt's responsibility to protect them all - and the Witcher never accepts defeat.<br /><br />The Witcher returns in this sequel to <em>The Last Wish<\/em>, as the inhabitants of his world become embroiled in a state of total war.",
+                "authors": {
+                   "author": {
+                      "id": "38569",
+                      "name": "Andrzej Sapkowski",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1241014902p5/38569.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1241014902p2/38569.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/38569.Andrzej_Sapkowski",
+                      "average_rating": "4.19",
+                      "ratings_count": "593568",
+                      "text_reviews_count": "31238"
+                   }
+                },
+                "published": "2009",
+                "work": {
+                   "id": "1877722",
+                   "uri": "kca://work/amzn1.gr.work.v1.CzDz2jsmVtc8eaE20BWJoQ"
+                }
+             },
+             "rating": "4",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": [],
+             "read_at": [],
+             "date_added": "Tue Jan 21 08:37:08 -0800 2020",
+             "date_updated": "Tue Jan 21 08:37:08 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3153449695",
+             "link": "https://www.goodreads.com/review/show/3153449695",
+             "owned": "0"
+          },
+          {
+             "id": "3153449263",
+             "book": {
+                "id": 40603587,
+                "isbn": {
+                   "@nil": "true"
+                },
+                "isbn13": {
+                   "@nil": "true"
+                },
+                "text_reviews_count": 4536,
+                "uri": "kca://book/amzn1.gr.book.v1.rMtW1-2HCrvbykOFqP1gPA",
+                "title": "The Last Wish (The Witcher, #0.5)",
+                "title_without_series": "The Last Wish",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529591917l/40603587._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1529591917l/40603587._SX50_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/40603587-the-last-wish",
+                "num_pages": "360",
+                "format": "Kindle Edition",
+                "edition_information": [],
+                "publisher": "Orbit",
+                "publication_day": "14",
+                "publication_year": "2008",
+                "publication_month": "12",
+                "average_rating": "4.15",
+                "ratings_count": "170429",
+                "description": "Geralt the Witcher -- revered and hated -- holds the line against the monsters plaguing humanity in this collection of adventures in the New York Times bestselling series that inspired the Netflix show and the hit video games.<br />Geralt is a Witcher, a man whose magic powers, enhanced by long training and a mysterious elixir, have made him a brilliant fighter and a merciless assassin. Yet he is no ordinary murderer: his targets are the multifarious monsters and vile fiends that ravage the land and attack the innocent. <br /><br />But not everything monstrous-looking is evil and not everything fair is good...and in every fairy tale there is a grain of truth.",
+                "authors": {
+                   "author": {
+                      "id": "38569",
+                      "name": "Andrzej Sapkowski",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1241014902p5/38569.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1241014902p2/38569.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/38569.Andrzej_Sapkowski",
+                      "average_rating": "4.19",
+                      "ratings_count": "593568",
+                      "text_reviews_count": "31238"
+                   }
+                },
+                "published": "2008",
+                "work": {
+                   "id": "2293675",
+                   "uri": "kca://work/amzn1.gr.work.v1.mTS9WiZQlJRWsv8cdio7ew"
+                }
+             },
+             "rating": "3",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": [],
+             "read_at": [],
+             "date_added": "Tue Jan 21 08:36:50 -0800 2020",
+             "date_updated": "Tue Jan 21 08:36:50 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3153449263",
+             "link": "https://www.goodreads.com/review/show/3153449263",
+             "owned": "0"
+          },
+          {
+             "id": "3153198832",
+             "book": {
+                "id": 121648,
+                "isbn": "0425093255",
+                "isbn13": "9780425093252",
+                "text_reviews_count": 1313,
+                "uri": "kca://book/amzn1.gr.book.v1.FAT1fpofygniylyjF_sCJQ",
+                "title": "Five Little Pigs (Hercule Poirot, #25)",
+                "title_without_series": "Five Little Pigs",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429422068l/121648._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1429422068l/121648._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/121648.Five_Little_Pigs",
+                "num_pages": "224",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "Berkley",
+                "publication_day": "15",
+                "publication_year": "1985",
+                "publication_month": "12",
+                "average_rating": "4.00",
+                "ratings_count": "39726",
+                "description": "It was an open and shut case. All the evidence said Caroline Crale poisoned her philandering husband, a brilliant painter. She was quickly and easily convicted and sentenced to life in prison. <br /> Now, sixteen years later, in a posthumous letter, Mrs. Crale has assured her grown daughter that she was innocent. But instead of setting the young woman's mind at ease, the letter only raises disquieting questions. Did Caroline indeed write the truth? And if she didn't kill her husband, who did?<br /><br />To find out, the Crale’s daughter asks Hercule Poirot to reopen the case. His investigation takes him deep into the conflicting memories and motivations of the five other people who were with the Crales on the fatal day. With his keen understanding of human psychology, he manages to discover the surprising truth behind the artist's death.",
+                "authors": {
+                   "author": {
+                      "id": "123715",
+                      "name": "Agatha Christie",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p5/123715.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p2/123715.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/123715.Agatha_Christie",
+                      "average_rating": "4.01",
+                      "ratings_count": "3889578",
+                      "text_reviews_count": "203992"
+                   }
+                },
+                "published": "1985",
+                "work": {
+                   "id": "2207701",
+                   "uri": "kca://work/amzn1.gr.work.v1.AXcQT5HmmWkRrmGRQKbBrw"
+                }
+             },
+             "rating": "3",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": "Tue Jan 21 05:09:28 -0800 2020",
+             "read_at": "Mon Feb 03 04:35:50 -0800 2020",
+             "date_added": "Tue Jan 21 05:09:27 -0800 2020",
+             "date_updated": "Mon Feb 03 04:35:50 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3153198832",
+             "link": "https://www.goodreads.com/review/show/3153198832",
+             "owned": "0"
+          },
+          {
+             "id": "3141473398",
+             "book": {
+                "id": 43190966,
+                "isbn": {
+                   "@nil": "true"
+                },
+                "isbn13": {
+                   "@nil": "true"
+                },
+                "text_reviews_count": 99,
+                "uri": "kca://book/amzn1.gr.book.v1.eov1F1X0yTD2X-77uOeoKA",
+                "title": "Refactoring UI",
+                "title_without_series": "Refactoring UI",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544555766l/43190966._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1544555766l/43190966._SX50_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/43190966-refactoring-ui",
+                "num_pages": "252",
+                "format": "ebook",
+                "edition_information": [],
+                "publisher": [],
+                "publication_day": "11",
+                "publication_year": "2018",
+                "publication_month": "12",
+                "average_rating": "4.73",
+                "ratings_count": "607",
+                "description": "Make your ideas look awesome, without relying on a designer. Learn how to design beautiful user interfaces by yourself using specific tactics explained from a developer's point-of-view.",
+                "authors": {
+                   "author": {
+                      "id": "15269703",
+                      "name": "Adam Wathan",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "true",
+                         "#text": "https://s.gr-assets.com/assets/nophoto/user/u_200x266-e183445fd1a1b5cc7075bb1cf7043306.png"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "true",
+                         "#text": "https://s.gr-assets.com/assets/nophoto/user/u_50x66-632230dc9882b4352d753eedf9396530.png"
+                      },
+                      "link": "https://www.goodreads.com/author/show/15269703.Adam_Wathan",
+                      "average_rating": "4.73",
+                      "ratings_count": "666",
+                      "text_reviews_count": "106"
+                   }
+                },
+                "published": "2018",
+                "work": {
+                   "id": "67015064",
+                   "uri": "kca://work/amzn1.gr.work.v1.grKDQP7ncSI3hUHK3qP8jQ"
+                }
+             },
+             "rating": "1",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": [],
+             "read_at": [],
+             "date_added": "Tue Jan 14 05:45:10 -0800 2020",
+             "date_updated": "Sun May 24 07:01:04 -0700 2020",
+             "read_count": "1",
+             "body": "They charge an absurd price for what is essentially a collection of blog posts. I do not know how people are okay with being charged so much for such a shallow tutorial.",
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3141473398",
+             "link": "https://www.goodreads.com/review/show/3141473398",
+             "owned": "0"
+          },
+          {
+             "id": "3141473147",
+             "book": {
+                "id": 16299,
+                "isbn": "0312330871",
+                "isbn13": "9780312330873",
+                "text_reviews_count": 20299,
+                "uri": "kca://book/amzn1.gr.book.v1.B3ScjZoNWl2tWncHpYuZXQ",
+                "title": "And Then There Were None",
+                "title_without_series": "And Then There Were None",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391120695l/16299._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1391120695l/16299._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/16299.And_Then_There_Were_None",
+                "num_pages": "264",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "St. Martin's Press",
+                "publication_day": "3",
+                "publication_year": "2004",
+                "publication_month": "5",
+                "average_rating": "4.26",
+                "ratings_count": "775624",
+                "description": "First, there were ten—a curious assortment of strangers summoned as weekend guests to a little private island off the coast of Devon. Their host, an eccentric millionaire unknown to all of them, is nowhere to be found. All that the guests have in common is a wicked past they're unwilling to reveal—and a secret that will seal their fate. For each has been marked for murder. A famous nursery rhyme is framed and hung in every room of the mansion:<br /><br />\"Ten little boys went out to dine; One choked his little self and then there were nine. Nine little boys sat up very late; One overslept himself and then there were eight. Eight little boys traveling in Devon; One said he'd stay there then there were seven. Seven little boys chopping up sticks; One chopped himself in half and then there were six. Six little boys playing with a hive; A bumblebee stung one and then there were five. Five little boys going in for law; One got in Chancery and then there were four. Four little boys going out to sea; A red herring swallowed one and then there were three. Three little boys walking in the zoo; A big bear hugged one and then there were two. Two little boys sitting in the sun; One got frizzled up and then there was one. One little boy left all alone; He went out and hanged himself and then there were none.\"<br /><br />When they realize that murders are occurring as described in the rhyme, terror mounts. One by one they fall prey. Before the weekend is out, there will be none. Who has choreographed this dastardly scheme? And who will be left to tell the tale? Only the dead are above suspicion.",
+                "authors": {
+                   "author": {
+                      "id": "123715",
+                      "name": "Agatha Christie",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p5/123715.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p2/123715.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/123715.Agatha_Christie",
+                      "average_rating": "4.01",
+                      "ratings_count": "3889578",
+                      "text_reviews_count": "203992"
+                   }
+                },
+                "published": "2004",
+                "work": {
+                   "id": "3038872",
+                   "uri": "kca://work/amzn1.gr.work.v1.hWShtivcYkXeCixPrSSLqA"
+                }
+             },
+             "rating": "4",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": [],
+             "read_at": [],
+             "date_added": "Tue Jan 14 05:44:57 -0800 2020",
+             "date_updated": "Tue Jan 14 05:44:57 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3141473147",
+             "link": "https://www.goodreads.com/review/show/3141473147",
+             "owned": "0"
+          },
+          {
+             "id": "3141471452",
+             "book": {
+                "id": 16349,
+                "isbn": "0007120699",
+                "isbn13": "9780007120697",
+                "text_reviews_count": 1547,
+                "uri": "kca://book/amzn1.gr.book.v1.2iY--FzQ9-ViIM3U8NYKgQ",
+                "title": "Hercule Poirot's Christmas (Hercule Poirot, #20)",
+                "title_without_series": "Hercule Poirot's Christmas",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308808460l/16349._SY160_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308808460l/16349._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/16349.Hercule_Poirot_s_Christmas",
+                "num_pages": "335",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "HarperCollins Publishers",
+                "publication_day": "1",
+                "publication_year": "2001",
+                "publication_month": "9",
+                "average_rating": "3.95",
+                "ratings_count": "38289",
+                "description": "In Hercule Poirot's Christmas, the holidays are anything but merry when a family reunion is marred by murder — and the notoriously fastidious investigator is quickly on the case. The wealthy Simeon Lee has demanded that all four of his sons — one faithful, one prodigal, one impecunious, one sensitive — and their wives return home for Christmas. But a heartwarming family holiday is not exactly what he has in mind. He bedevils each of his sons with barbed insults and finally announces that he is cutting off their allowances and changing his will. Poirot is called in the aftermath of Simeon Lee's announcement.",
+                "authors": {
+                   "author": {
+                      "id": "123715",
+                      "name": "Agatha Christie",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p5/123715.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p2/123715.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/123715.Agatha_Christie",
+                      "average_rating": "4.01",
+                      "ratings_count": "3889578",
+                      "text_reviews_count": "203992"
+                   }
+                },
+                "published": "2001",
+                "work": {
+                   "id": "6568307",
+                   "uri": "kca://work/amzn1.gr.work.v1.jwL_xXjH_qQKV12-oeaboQ"
+                }
+             },
+             "rating": "5",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": [],
+             "read_at": [],
+             "date_added": "Tue Jan 14 05:43:25 -0800 2020",
+             "date_updated": "Tue Jan 14 05:43:26 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3141471452",
+             "link": "https://www.goodreads.com/review/show/3141471452",
+             "owned": "0"
+          },
+          {
+             "id": "3141471239",
+             "book": {
+                "id": 16363,
+                "isbn": "0007119356",
+                "isbn13": "9780007119356",
+                "text_reviews_count": 1082,
+                "uri": "kca://book/amzn1.gr.book.v1.HFbxucgvdaIWdQok6MaX3A",
+                "title": "Appointment with Death (Hercule Poirot, #19)",
+                "title_without_series": "Appointment with Death",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308808730l/16363._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1308808730l/16363._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/16363.Appointment_with_Death",
+                "num_pages": "303",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "HarperCollins",
+                "publication_day": [],
+                "publication_year": "2001",
+                "publication_month": [],
+                "average_rating": "3.87",
+                "ratings_count": "34226",
+                "description": "Among the towering red cliffs of Petra, like some monstrous swollen Buddha, sat the corpse of Mrs Boynton. A tiny puncture mark on her wrist was the only sign of the fatal injection that had killed her.<br /><br />With only 24 hours available to solve the mystery, Hercule Poirot recalled a chance remark he’d overheard back in Jerusalem: ‘You see, don’t you, that she’s got to be killed?’ Mrs Boynton was, indeed, the most detestable woman he’d ever met.",
+                "authors": {
+                   "author": {
+                      "id": "123715",
+                      "name": "Agatha Christie",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p5/123715.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p2/123715.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/123715.Agatha_Christie",
+                      "average_rating": "4.01",
+                      "ratings_count": "3889578",
+                      "text_reviews_count": "203992"
+                   }
+                },
+                "published": "2001",
+                "work": {
+                   "id": "2773090",
+                   "uri": "kca://work/amzn1.gr.work.v1.pN8X4yMAgFbH9_YHuyykRg"
+                }
+             },
+             "rating": "4",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": [],
+             "read_at": [],
+             "date_added": "Tue Jan 14 05:43:15 -0800 2020",
+             "date_updated": "Tue Jan 14 05:43:16 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3141471239",
+             "link": "https://www.goodreads.com/review/show/3141471239",
+             "owned": "0"
+          },
+          {
+             "id": "3141470963",
+             "book": {
+                "id": 16344,
+                "isbn": "0007120796",
+                "isbn13": "9780007120796",
+                "text_reviews_count": 799,
+                "uri": "kca://book/amzn1.gr.book.v1.w2uYbFDJSM-CDuVUFbKQJQ",
+                "title": "Dumb Witness (Hercule Poirot, #16)",
+                "title_without_series": "Dumb Witness",
+                "image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1295672288l/16344._SX98_.jpg",
+                "small_image_url": "https://i.gr-assets.com/images/S/compressed.photo.goodreads.com/books/1295672288l/16344._SY75_.jpg",
+                "large_image_url": [],
+                "link": "https://www.goodreads.com/book/show/16344.Dumb_Witness",
+                "num_pages": "411",
+                "format": "Paperback",
+                "edition_information": [],
+                "publisher": "HarperCollins",
+                "publication_day": [],
+                "publication_year": "2002",
+                "publication_month": [],
+                "average_rating": "3.85",
+                "ratings_count": "21763",
+                "description": "An elderly spinster has been poisoned in her country home. Everyone blamed Emily’s accident on a rubber ball left on the stairs by her frisky terrier. But the more she thought about her fall, the more convinced she became that one of her relatives was trying to kill her. On April 17th she wrote her suspicions in a letter to Hercule Poirot. Mysteriously he didn’t receive the letter until June 28th… by which time Emily was already dead.",
+                "authors": {
+                   "author": {
+                      "id": "123715",
+                      "name": "Agatha Christie",
+                      "role": [],
+                      "image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p5/123715.jpg"
+                      },
+                      "small_image_url": {
+                         "@nophoto": "false",
+                         "#text": "https://images.gr-assets.com/authors/1589991473p2/123715.jpg"
+                      },
+                      "link": "https://www.goodreads.com/author/show/123715.Agatha_Christie",
+                      "average_rating": "4.01",
+                      "ratings_count": "3889578",
+                      "text_reviews_count": "203992"
+                   }
+                },
+                "published": "2002",
+                "work": {
+                   "id": "2393238",
+                   "uri": "kca://work/amzn1.gr.work.v1.7znHjnOpI1SV08Waq--1ww"
+                }
+             },
+             "rating": "4",
+             "votes": "0",
+             "spoiler_flag": "false",
+             "spoilers_state": "none",
+             "shelves": {
+                "shelf": {
+                   "@name": "read",
+                   "@exclusive": "true",
+                   "@id": "352476212",
+                   "@review_shelf_id": ""
+                }
+             },
+             "recommended_for": [],
+             "recommended_by": [],
+             "started_at": [],
+             "read_at": [],
+             "date_added": "Tue Jan 14 05:43:01 -0800 2020",
+             "date_updated": "Tue Jan 14 05:43:02 -0800 2020",
+             "read_count": "1",
+             "body": [],
+             "comments_count": "0",
+             "url": "https://www.goodreads.com/review/show/3141470963",
+             "link": "https://www.goodreads.com/review/show/3141470963",
+             "owned": "0"
+          }
+       ]
+ }
+ 
+ 

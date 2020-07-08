@@ -1,0 +1,21 @@
+{
+  "name": "voicefoundry-challenge",
+  "version": "1.0.0",
+  "description": "coding challenge for voicefoundry using serverless framework",
+  "main": "handler.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "hook:before:offline:start": "echo deploy completed"
+  },
+  "keywords": [
+    "voicefoundry",
+    "serverless"
+  ],
+  "author": "Cole Walker",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.710.0",
+    "serverless-s3-sync": "^1.14.4"
+  },
+  "devDependencies": {}
+}
