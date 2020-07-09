@@ -18,19 +18,19 @@ const getBooks = async () => {
   const reviewsRes = await s3.getObject(params).promise()
   const reviews = JSON.parse(reviewsRes.Body.toString()).reviews
 
-  return reviews.map((el) => {
+  return reviews.map((review) => {
     return {
-      id: el.book.id,
-      title: el.book.title,
-      description: el.book.description,
-      averageRating: el.book.average_rating,
-      published: el.book.published,
-      publisher: el.book.publisher,
-      numPages: el.book.num_pages,
-      isbn: el.book.isbn,
-      isbn13: el.book.isbn13,
-      link: el.book.link,
-      imageURL: el.book.image_url
+      id: review.book.id,
+      title: review.book.title,
+      description: review.book.description,
+      averageRating: review.book.average_rating,
+      published: review.book.published,
+      publisher: review.book.publisher,
+      numPages: review.book.num_pages,
+      isbn: review.book.isbn,
+      isbn13: review.book.isbn13,
+      link: review.book.link,
+      imageURL: review.book.image_url
     }
   })
 }
@@ -74,12 +74,14 @@ const writeBookBatches = async (batches) => {
         [table]: [...batch]
       }
     }
+
     return dynamoDB.batchWrite(params).promise()
   })
 
   return Promise.all(promises)
 }
 
+// Lambda main function
 module.exports.savebooks = async (event) => {
   const books = await getBooks()
   const batches = getBatches(books)
