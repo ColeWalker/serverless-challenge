@@ -2,10 +2,14 @@
 
 const aws = require('aws-sdk')
 const dynamoDB = new aws.DynamoDB.DocumentClient({
-  region: 'us-east-1'
+  region: 'us-east-1',
+  accessKeyId: process.env.ACCESS_KEY_ID,
+  secretAccessKey: process.env.SECRET_ACCESS_KEY
 })
 const s3 = new aws.S3({
-  region: 'us-east-1'
+  region: 'us-east-1',
+  accessKeyId: process.env.ACCESS_KEY_ID,
+  secretAccessKey: process.env.SECRET_ACCESS_KEY
 })
 const table = process.env.TABLE_NAME
 const bucket = process.env.BUCKET_NAME

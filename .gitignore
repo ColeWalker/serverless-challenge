@@ -7,3 +7,4 @@ jspm_packages
 
 #individual files
 index.js
+.env

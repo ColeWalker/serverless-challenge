@@ -1,5 +1,4 @@
-const aws = require('aws-sdk')
-const lambda = new aws.Lambda({ region: 'us-east-1' })
+'use strict';
 
 class InvokeOnDeploy {
   constructor(serverless, options) {
@@ -14,11 +13,13 @@ class InvokeOnDeploy {
 }
 
 async function invokeLambdaOnDeploy(serverless) {
-  
+  const provider = serverless.getProvider('aws');
+
   const params = {
     FunctionName: 'voicefoundry-challenge-dev-savebooks'
   }
-  const res = await lambda.invoke(params).promise()
+
+  const res = await provider.request('Lambda', 'invoke', params)
   console.log(res)
 }
 
