@@ -27,8 +27,9 @@ provider:
               - '*'
 
 plugins:
+  - serverless-s3-sync
   - invoke-on-deploy
-  - serverless-sync-s3buckets
+
 
 functions:
   savebooks:
@@ -45,15 +46,19 @@ resources:
         TableName: books
         AttributeDefinitions:
           - AttributeName: id
-            AttributeType: N
+            AttributeType: "N"
         KeySchema:
           - AttributeName: id
             KeyType: HASH
         ProvisionedThroughput:
           ReadCapacityUnits: 5
           WriteCapacityUnits: 5
+  Outputs:
+    VoiceFoundryBucketOutputKey:
+      Value: !Ref VoiceFoundryBucket
+
 
 custom:
- syncS3Buckets:
-    - bucketRef: VoiceFoundryBucket
+ s3Sync:
+    - bucketNameKey: VoiceFoundryBucketOutputKey
       localDir: data

@@ -6,6 +6,7 @@ class InvokeOnDeploy {
     this.hooks = {
       // this is where we declare the hook we want our code to run
       'after:deploy:deploy': () => {
+        console.log('Invoking lambda function')
         invokeLambdaOnDeploy(serverless)
       }
     }
@@ -13,6 +14,7 @@ class InvokeOnDeploy {
 }
 
 async function invokeLambdaOnDeploy(serverless) {
+  
   const params = {
     FunctionName: 'voicefoundry-challenge-dev-savebooks'
   }
