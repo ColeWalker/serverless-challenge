@@ -33,7 +33,7 @@ The data folder stores a JSON document representing all of the book reviews on m
 
 If you'd like to modify or add code, you can use the Prettier VSCode extension to keep your additions automatically formatted with the rules in place.
 
-If you would prefer to use these rules in a different linter, the general rules are as follows:
+If you would prefer to use these rules with a different linter, the general rules are as follows:
 
 - 2 spaces per indentation level
 - Indent with spaces over tabs
