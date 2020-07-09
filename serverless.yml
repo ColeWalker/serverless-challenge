@@ -7,7 +7,7 @@ provider:
   region: us-east-1
   environment:
     accountId: '#{AWS::AccountId}'
-    BUCKET_NAME: voice-foundry-bucket
+    BUCKET_NAME: !Ref VoiceFoundryBucket
     TABLE_NAME: books
   iamRoleStatements:
     - Effect: Allow
@@ -29,12 +29,7 @@ provider:
 
 plugins:
   - invoke-on-deploy
-  - serverless-s3-sync
-
-custom:
-  s3Sync:
-    - bucketName: voice-foundry-bucket
-      localDir: /data
+  - serverless-sync-s3buckets
 
 functions:
   savebooks:
@@ -44,8 +39,6 @@ resources:
   Resources:
     VoiceFoundryBucket:
       Type: AWS::S3::Bucket
-      Properties:
-        BucketName: voice-foundry-bucket
 
     BookTable:
       Type: 'AWS::DynamoDB::Table'
@@ -60,3 +53,8 @@ resources:
         ProvisionedThroughput:
           ReadCapacityUnits: 5
           WriteCapacityUnits: 5
+
+custom:
+ syncS3Buckets:
+    - bucketRef: VoiceFoundryBucket
+      localDir: data

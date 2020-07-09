@@ -5,7 +5,7 @@ class InvokeOnDeploy {
   constructor(serverless, options) {
     this.hooks = {
       // this is where we declare the hook we want our code to run
-      'after:deploy:finalize': () => {
+      'after:deploy:deploy': () => {
         invokeLambdaOnDeploy(serverless)
       }
     }
