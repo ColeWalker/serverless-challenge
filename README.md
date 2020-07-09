@@ -29,6 +29,16 @@ This project assumes that you have the AWS CLI installed on your system which is
 
 The data folder stores a JSON document representing all of the book reviews on my Goodreads account. Serverless first uploads this file to an S3 bucket using the serverless-s3-sync plugin at the same time as it establishes the DynamoDB table and lambda function. The lambda function parses only certain information about the reviewed books. Then, it formats those books into batches to be sent to DynamoDB. DynamoDB only allows batch writes of up to 25 items, so each batch consists of 25 or less items. Then, the data is saved to the DynamoDB table established by Serverless, and a response is returned stating that everything went well.
 
+# Environment Variables
+
+The serverless configuration will automatically generate the following environment variables:
+
+| Variable Name | Use |
+| ---------- | --- |
+| BUCKET_NAME | Stores the name of the dynamically generated S3 bucket. |
+| TABLE_NAME | Stores the name of the DynamoDB table in the stack. |
+
+
 # Style Guide
 
 If you'd like to modify or add code, you can use the Prettier VSCode extension to keep your additions automatically formatted with the rules in place.
@@ -45,5 +55,6 @@ If you would prefer to use these rules with a different linter, the general rule
 
 | Dependency         | Use                                                                     |
 | ------------------ | ----------------------------------------------------------------------- |
-| serverless-s3-sync | Automatically upload files in the "data" local folder to the S3 bucket. |
+| serverless-sync-s3buckets
+ | Automatically upload files in the "data" local folder to the S3 bucket. |
 | aws-sdk            | Allows interaction with Amazon Web Services                             |
