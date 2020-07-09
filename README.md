@@ -55,6 +55,5 @@ If you would prefer to use these rules with a different linter, the general rule
 
 | Dependency         | Use                                                                     |
 | ------------------ | ----------------------------------------------------------------------- |
-| serverless-sync-s3buckets
- | Automatically upload files in the "data" local folder to the S3 bucket. |
+| serverless-sync-s3buckets | Automatically upload files in the "data" local folder to the S3 bucket. |
 | aws-sdk            | Allows interaction with Amazon Web Services                             |
