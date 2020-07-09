@@ -44,7 +44,7 @@ const getBatches = (arr) => {
       chunked.push(arr.slice(i, i + 25))
     }
   } else {
-    //expects array of chunk arrays
+    // expects array of chunk arrays
     chunked = [[...arr]]
   }
 
