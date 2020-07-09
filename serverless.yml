@@ -26,7 +26,6 @@ provider:
             - ''
             - - !GetAtt VoiceFoundryBucket.Arn
               - '*'
-# This grabs the attribute "Arn (Amazon Resource Name) from the HelloTable logical value, much cleaner"
 
 plugins:
   - invoke-on-deploy
@@ -41,7 +40,6 @@ functions:
   savebooks:
     handler: lambda.savebooks
 
-# you can add CloudFormation resource templates here
 resources:
   Resources:
     VoiceFoundryBucket:
