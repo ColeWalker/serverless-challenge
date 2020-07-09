@@ -6,7 +6,6 @@ provider:
   stage: dev
   region: us-east-1
   environment:
-    accountId: '#{AWS::AccountId}'
     BUCKET_NAME: !Ref VoiceFoundryBucket
     TABLE_NAME: books
   iamRoleStatements:
