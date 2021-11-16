@@ -13,7 +13,7 @@
   "author": "Cole Walker",
   "license": "ISC",
   "dependencies": {
-    "aws-sdk": "^2.710.0",
+    "aws-sdk": "^2.814.0",
     "dotenv": "^8.2.0",
     "serverless-s3-sync": "^1.14.4"
   },
